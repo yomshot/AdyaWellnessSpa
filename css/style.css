@@ -7,8 +7,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
 */
-    
-    font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
     background-color: #f4f4f4; 
@@ -25,7 +23,7 @@ body {
 .container {
     margin: 0 auto;
     overflow: hidden;
-    width: 80%;
+    width: 90% !important;
 }
 
 .custom-container {
@@ -82,7 +80,13 @@ body {
 }
 
 /* header */
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+
 .my-navbar {
+    font-family: 'Montserrat', sans-serif !important;
     transition: 750ms ease;
     background-color: transparent;
 }
@@ -90,6 +94,7 @@ body {
 .navbar-dark .navbar-nav .nav-link  {
     color: white !important;
     font-size: 18px;
+    /* padding-left: 300px; */
 }
 
 .navbar-dark .navbar-nav .nav-link:hover  {
@@ -121,7 +126,7 @@ a:hover {
 /* showcase */
 
 #showcase {
-    
+    font-family: 'Montserrat', sans-serif !important;
     overflow: hidden;
     min-height: 800px;
     background: url('../images/bg-sample.JPG') no-repeat 0 -200px;
@@ -170,6 +175,7 @@ a:hover {
 
 /* newsletter */
 #newsletter {
+    font-family: 'Montserrat', sans-serif !important;
     padding: 25px;
     color: #ffffff;
     background: #252e33;
@@ -177,7 +183,7 @@ a:hover {
 
 #newsletter h3 {
     float: left;
-    
+    font-size: 25px;
 }
 
 #newsletter form {
@@ -207,37 +213,19 @@ a:hover {
     width: 200px;
 }
 
-/* Sidebar */
-aside#sidebar {
-    float: right;
-    width: 30%;
-    margin-top: 10px;
-}
-
-aside#sidebar .quote input, aside#sidebar .quote textarea{
-    width: 90%;
-    padding: 5px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-aside#sidebar .quote button {
-    width: 94%;
-}
-
-/* main-col article */
-article#main-col {
-    float: left;
-    width: 65%;
-}
-
 
 .new-box img {
     width: 200px;
 }
 .new-box {
-    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: white;
     text-align: center;
+    font-family: 'Montserrat', sans-serif !important;
 }
+
+
 
 /* Carousel */
 .carousel .carousel-caption{
@@ -245,6 +233,7 @@ article#main-col {
     border-radius: 12px 12px 12px 12px;
     margin-left: 80px;
     margin-right: 80px;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .carousel .carousel-caption img{
@@ -262,6 +251,9 @@ article#main-col {
 
 
 /* Footer */
+footer {
+    font-family: 'Montserrat', sans-serif !important;
+}
 
 footer h5 {
     color: white;
@@ -395,10 +387,64 @@ footer input[type="email"] {
     }
 }
 
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1284px !important;
+    }
+}
 
 
+section {
+    background: #f8f8f8;
+}
 
+section .container {
+    padding-top: 40px;
+    padding-bottom: 40px; 
+}
 
+/* services starts here  */
+
+#showcase-1 {
+    overflow: hidden;
+    min-height: 800px;
+    background: url('../images/about-us-bg.jpg') no-repeat 0 -200px;
+}
+
+#show-sub-1 {
+    margin: 0 auto;
+    width: 95%;
+    text-align: center;
+    padding-top: 250px;
+    color: white;
+}
+
+#show-sub-1 img {
+    width: 300px;
+}
+
+#show-sub-1 h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+}
+
+#show-sub-1 h5 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+#show-sub-1 button {
+    font-family: 'Montserrat', sans-serif !important;
+    background: transparent;
+    color: white;
+    border-color: #022b00;
+    height: 45px;
+    width: 350px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#show-sub-1 button:hover {
+    background: #022b00;
+}
 
 
 

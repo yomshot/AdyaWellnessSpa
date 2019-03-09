@@ -6,101 +6,379 @@
         <meta name="description" content="Adya Wellness Marketing">
         <meta name="keywords" content="Web Design">
         <meta name="author" content="Yom Eustaquio">
-        <title> Adya Wellness Spa | Services </title>
+        <title> Adya Wellness Spa | Home </title>
+        <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
         <link rel="stylesheet" href="./css/style.css" type="text/css">
+        
+        <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+        
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     </head>
     <body>
-        <header>
-            <div class="fixed">
-                <div class="container bg transition">
-                    <div id="branding">
-                        <a href="#">
-                            <img src='images/branding-logo.png' id='branding-logo'>
-                        </a>
-                    </div>
-                    <nav>
-                        <ul>
-                            <li> <a href="index.html">Home</a></li>
-                            <li> <a href="about-us.html">About</a></li>
-                            <li class="current"> <a href="services.html">Services</a></li>
-                        </ul>
-                    </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top my-navbar">
+            <div class="container">
+              <a class="navbar-brand mr-4" href="#">
+                  <img src="images/branding-logo-1.png" class="branding-logo" id="branding-logo">
+              </a>
+              <button class="navbar-toggler" id="my-nav-toggle" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarToggle">
+                <div class="navbar-nav mr-auto">
+                  <a class="nav-item nav-link" href="index.html">Home</a>
+                  <a class="nav-item nav-link" href="#">Blog</a>
+                  <a class="nav-item nav-link current" href="services.html">Services</a>
                 </div>
+                <!-- Navbar Right Side -->
+                <div class="navbar-nav">
+                    
+                      <a class="nav-item nav-link" href="#">Login</a>
+                      <a class="nav-item nav-link" href="#">Register</a>
+                </div>
+              </div>
             </div>
-        </header>
+          </nav>
+        
+        <section id="showcase-1">
+            <div id="show-sub-1">
+                <img src="images/border-curl.png"> <br><br>
+                <h1> Endulge the Art of Nature Wellness </h1>
+                <h5> You owe yourself this moment. Make an appointment in just a click and get a discount! </h5><br>
+                <button type="submit"> Make an Appointment </button>
+
+            </div>
+            
+        </section>
         
         <section id="newsletter">
-            <div class="container">
-                <h1> Subscribe to our newsletter and get a discount ahead from other clients </h1>
-                
+            <div class="custom-container">
+                <h3> Register your account to avail discounts ahead from other clients </h3>
                 <form>
-                    <input type="email" placeholder="Enter Email..">
-                    <button type="submit" class="button_1"> Subscribe </button>
+                    <input type="email"placeholder="Enter email">
+                    <button type="submit" class="button_1"> Submit </button>
                 </form>
             </div>
         </section>
         
-        <section id="main">
+        <section>
             <div class="container">
-                <article id='main-col'>
-                    <h1 class="page-title"> Services </h1>
-                    <ul id="services">
-                        <li>
-                            <h3>Swedish Massage</h3>
-                            <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                            </p>
-                            <p>Pricing: P250.00</p>
-                        </li>
-                        <li>
-                            <h3>Shiatsu Massage</h3>
-                            <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                            </p>
-                            <p>Pricing: P250.00</p>
-                        </li>
-                        <li>
-                            <h3>Thai Massage</h3>
-                            <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                            </p>
-                            <p>Pricing: P250.00</p>
-                        </li>
-                    </ul>
-                </article>
-                <aside id="sidebar"> 
-                    <div class="dark">
-                        <h3>Get A Quote</h3>
-                        <form class="quote">
-                            <div>
-                                <label>Name</label><br>
-                                <input type="text" placeholder="Name">
-                            </div>
-                            <div>
-                                <label>Email Address</label><br>
-                                <input type="email" placeholder="Email Address">
-                            </div>
-                            <div>
-                                <label>Message</label><br>
-                                <textarea placeholder="Message"> </textarea>
-                            </div>
-                            <br>
-                            <div>
-                                <button type="submit" class="button_1"> Subscribe </button>
-                            </div>
-                        </form>
+                <div class="row new-box">
+                    <div class="col-md wow fadeInUp" data-wow-duration="1">
+                       <img src="./images/spa_1.png">
+                        <h3> Thai Massage </h3>
+                        <p>
+                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </p> 
                     </div>
-                </aside>
+                    <div class="col-md wow fadeInUp" data-wow-duration="2s">
+                       <img src="./images/spa_3.png">
+                    <h3> Thai Massage </h3>
+                    <p>
+                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p> 
+                    </div>
+                    <div class="col-md wow fadeInUp" data-wow-duration="3s">
+                       <img src="./images/spa_2.png">
+                    <h3> Thai Massage </h3>
+                    <p>
+                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="parallax-window" data-parallax="scroll" data-image-src="images/bg-sample-1.jpg">
+          <div style="padding-top:200px" class="text-center wow fadeIn" data-wow-duration="4s">
+              <h1 style="color:#fff; font-weight:bolder;">Hello, world!</h1>
+              <a href="#" class="btn btn-success">Aprende mas</a>
+              <a href="#" class="btn btn-primary">Baja</a>
+                <a href="#" class="btn btn-danger">Demos</a>
+          </div>
+        </div>
+
+        <section>
+            <div class="container">
+                <div class="row new-box">
+                    <div class="col-md">
+                        <div class="wow fadeInUp" data-wow-duration="1s">
+                           <img src="./images/spa_1.png">
+                            <h3> Thai Massage </h3>
+                            <p>
+                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p> 
+                        </div>
+                    </div>
+                    
+                    <div class="col-md">
+                        <div class="wow fadeInUp" data-wow-duration="2s">
+                           <img src="./images/spa_3.png">
+                            <h3> Thai Massage </h3>
+                            <p>
+                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p> 
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </section>
+        
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="images/slide-1.JPG" alt="First slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>
+                        <img class="wow bounce" data-wow-duration=".5s" src="images/star.svg"> &nbsp;
+                        <img class="wow bounce" data-wow-duration="1s" src="images/star.svg"> &nbsp;
+                        <img class="wow bounce" data-wow-duration="1.5s" src="images/star.svg"> &nbsp;
+                        <img class="wow bounce" data-wow-duration="2s" src="images/star.svg"> &nbsp;
+                        <img class="wow bounce" data-wow-duration="2.5s" src="images/star.svg"> &nbsp;
+                    </h5>
+                    <p>
+                        <a target="_blank" href="https://www.facebook.com/pg/Adya-Wellness-Spa-304865857030563/reviews/"><i>
+                            Good service, very relaxing and specially they have well experience masseuse.. WE WILL DEFINITELY COME BACK<br> -Eldi Joyce Nepomuceno Laguda
+                        </i>
+                        </a>
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/slide-2.JPG" alt="Second slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>
+                        <img class="animated bounce faster" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce fast" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce fast" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce slow" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce slower" src="images/star.svg"> &nbsp;
+                    </h5>
+                    <p>
+                        <a target="_blank" href="https://www.facebook.com/pg/Adya-Wellness-Spa-304865857030563/reviews/"><i>
+                            Good service, very relaxing and specially they have well experience masseuse.. WE WILL DEFINITELY COME BACK<br> -Eldi Joyce Nepomuceno Laguda
+                        </i>
+                        </a>
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/slide-3.JPG" alt="Third slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>
+                        <img class="animated bounce faster" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce fast" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce fast" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce slow" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce slower" src="images/star.svg"> &nbsp;
+                    </h5>
+                    <p>
+                        <a target="_blank" href="https://www.facebook.com/pg/Adya-Wellness-Spa-304865857030563/reviews/"><i>
+                            Good service, very relaxing and specially they have well experience masseuse.. WE WILL DEFINITELY COME BACK<br> -Eldi Joyce Nepomuceno Laguda
+                        </i>
+                        </a>
+                    </p>
+                  </div>
+                </div>
+                  
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/slide-4.JPG" alt="Third slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>
+                        <img class="animated bounce faster" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce fast" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce fast" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce slow" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce slower" src="images/star.svg"> &nbsp;
+                    </h5>
+                    <p>
+                        <a target="_blank" href="https://www.facebook.com/pg/Adya-Wellness-Spa-304865857030563/reviews/"><i>
+                            Good service, very relaxing and specially they have well experience masseuse.. WE WILL DEFINITELY COME BACK<br> -Eldi Joyce Nepomuceno Laguda
+                        </i>
+                        </a>
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/slide-5.JPG" alt="Third slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>
+                        <img class="animated bounce faster" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce fast" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce fast" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce slow" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce slower" src="images/star.svg"> &nbsp;
+                    </h5>
+                    <p>
+                        <a target="_blank" href="https://www.facebook.com/pg/Adya-Wellness-Spa-304865857030563/reviews/"><i>
+                            Good service, very relaxing and specially they have well experience masseuse.. WE WILL DEFINITELY COME BACK<br> -Eldi Joyce Nepomuceno Laguda
+                        </i>
+                        </a>
+                    </p>
+                  </div>    
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/slide-6.JPG" alt="Third slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>
+                        <img class="animated bounce faster" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce fast" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce fast" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce slow" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce slower" src="images/star.svg"> &nbsp;
+                    </h5>
+                    <p>
+                        <a target="_blank" href="https://www.facebook.com/pg/Adya-Wellness-Spa-304865857030563/reviews/"><i>
+                            Good service, very relaxing and specially they have well experience masseuse.. WE WILL DEFINITELY COME BACK<br> -Eldi Joyce Nepomuceno Laguda
+                        </i>
+                        </a>
+                    </p>
+                  </div>    
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/slide-7.JPG" alt="Third slide">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>
+                        <img class="animated bounce faster" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce fast" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce fast" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce slow" src="images/star.svg"> &nbsp;
+                        <img class="animated bounce slower" src="images/star.svg"> &nbsp;
+                    </h5>
+                    <p>
+                        <a target="_blank" href="https://www.facebook.com/pg/Adya-Wellness-Spa-304865857030563/reviews/"><i>
+                            Good service, very relaxing and specially they have well experience masseuse.. WE WILL DEFINITELY COME BACK<br> -Eldi Joyce Nepomuceno Laguda
+                        </i>
+                        </a>
+                    </p>
+                  </div>    
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
         </section>
         
         <footer>
-            <p> Adya Wellness Spa, Copyright &copy; 2019 </p>
+            <div class="my-footer">
+<!--                <a href="#"><img src="images/foot-logo.png"> </a>-->
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md"> 
+                                <small class="text-muted">
+                                    <ul>
+                                        <li><h5>Reach Us Here</h5> </li>
+                                        <li> <a href="#">+63 922 927 4160 </a> </li>
+                                        <li> <a href="#">Unit 4, Blk. 6, Lot 5 Golden Valley Subdivision, Marikina, 1800 Metro Manila</a></li>
+                                        <li>
+                                            <a href="#">
+                                                <img class="foot-icon" src="images/facebook.png">
+                                            </a> 
+                                            &nbsp; &nbsp;
+                                            <a href="#">
+                                                <img class="foot-icon"  src="images/gmail.png">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </small>
+                            </div>
+                            <div class="col-md footer-arrange">
+                                <small class="text-muted">
+                                    <ul>
+                                        <li><h5>Body Massages</h5> </li>
+                                        <li> <a href="#">Adya Signature Massages</a> </li>
+                                        <li> <a href="#">Swedish Massage</a> </li>
+                                        <li> <a href="#">Thai Massage</a> </li>
+                                        <li> <a href="#">Shiatsu Massage</a> </li>
+                                        <li> <a href="#">Deep Massage</a> </li>
+                                    </ul>
+                                </small>
+                            </div>
+                            <div class="col-md footer-arrange">
+                                <small class="text-muted">
+                                    <ul>
+                                        <li><h5>Other Services</h5> </li>
+                                        <li> <a href="#">Ventosa Massage</a> </li>
+                                        <li> <a href="#">Hot Stone Massage</a> </li>
+                                        <li> <a href="#">Ear Candling</a> </li>
+                                        <li> <a href="#">Foot Spa</a> </li>
+                                        <li> <a href="#">Foot Massage</a> </li>
+                                        <li> <a href="#">Back Massage</a> </li>
+                                    </ul>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                       <h4> Get your discount today! </h4>
+                        <form>
+                            <input type="email"placeholder="Enter your email address">
+                            <button type="submit" class="button_3"> Submit </button>
+                        </form>
+                        <small class="text-muted">
+                            <ul>
+                                <li> <a href="#">Terms of Services</a> | <a href="#"> Cookie &amp; Privacy Policy</a></li>
+                            </ul>
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="foot-sub">
+                <p> Adya Wellness Spa, Copyright &copy; 2019 </p>
+            </div>
         </footer>
         
-        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
-        <script  src="js/index.js"></script>
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        
+        <!-- Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+        <!-- wow.js animate scrolling -->
+        <script src="js/wow.min.js"></script>
+        <script>
+          new WOW().init();
+        </script>
+        
+        <!-- smooth scroll -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+        <script src="js/smooth-scroll.js"> </script>
+        
+        <!-- Navbar fade -->
+         <script src="js/index.js"></script>
+        
+        <!-- parallax -->
+         <script src="js/parallax.min.js" charset="utf-8"></script>
+          <script>
+              $('.parallax-window').parallax();
+          </script>
     </body>
 </html>
