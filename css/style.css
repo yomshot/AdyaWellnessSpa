@@ -77,6 +77,12 @@ body {
 .parallax-window {
   min-height: 500px;
   background: transparent;
+  font-family: 'Montserrat', sans-serif !important;
+  color: white;
+}
+
+.parallax-window img {
+    width: 150px;
 }
 
 /* header */
@@ -156,7 +162,7 @@ a:hover {
 }
 
 #showcase .show-1 .show-content-1 span {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 #showcase .show-2 {
@@ -234,6 +240,8 @@ a:hover {
     margin-left: 80px;
     margin-right: 80px;
     font-family: 'Montserrat', sans-serif !important;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .carousel .carousel-caption img{
