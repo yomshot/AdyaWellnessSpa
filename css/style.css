@@ -323,19 +323,34 @@ footer input[type="email"] {
 
 /* media queries */
 
-@media only screen and (max-width: 483px) {
-    #branding-logo {
-        width: 275px;
+@media only screen and (max-width: 1190px) {
+    #showcase .show-1 {
+        width: 85%;
     }
 }
 
-@media only screen and (max-width: 768px) {
-    footer .footer-arrange {
-        width: 50%;
-    }
-    
-    footer {
+@media only screen and (max-width: 1556px) {
+    #newsletter, #newsletter h3, #newsletter form {
+        float: none !important;
         text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1284px !important;
+    }
+}
+
+@media only screen and (max-width: 1164px) {
+    .show-1 {
+        width: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 1057px) {
+    nav .container {
+        width: 100% !important;
     }
 }
 
@@ -382,25 +397,31 @@ footer input[type="email"] {
     
 }
 
-@media only screen and (max-width: 1164px) {
-    .show-1 {
-        width: 96% !important;
+@media only screen and (max-width: 768px) {
+    footer .footer-arrange {
+        width: 50%;
     }
-}
-
-@media only screen and (max-width: 1556px) {
-    #newsletter, #newsletter h3, #newsletter form {
-        float: none !important;
+    
+    footer {
         text-align: center;
     }
 }
 
-@media (min-width: 1200px) {
-    .container {
-        max-width: 1284px !important;
+@media only screen and (max-width: 532px) {
+    #branding-logo {
+        width: 275px;
+    }
+
+    nav .container {
+        width: 100% !important;
     }
 }
 
+@media only screen and (max-width: 500px) {
+    #showcase .show-1 .show-content-1 {
+        margin-top: 170px;
+    }
+}
 
 section {
     background: #f8f8f8;
@@ -455,8 +476,16 @@ section .container {
 }
 
 
+/* media query */
+@media only screen and (max-width: 1040px) {
+    #show-sub-1 {
+        padding-top: 200px !important;
+    }
+}
 
-
-
-
-
+/* media query */
+@media only screen and (max-width: 500px) {
+    #show-sub-1 {
+        padding-top: 150px !important;
+    }
+}
